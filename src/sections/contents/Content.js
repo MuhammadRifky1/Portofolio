@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { ImgTxt } from './style';
+
+
 
 class Content extends Component {
     constructor(props){
@@ -27,9 +30,8 @@ class Content extends Component {
             <div>
                 {this.state.article.map((x) =>{
                     return(
-                        <section>
-                            <p>Posted By : {x.author}</p>
-                            <p>{x.data}</p><br />
+                        <section key={x.author}>
+                            <ImgTxt>Posted By : {x.author}<br /> {x.data}</ImgTxt><br />
                         </section>
                     )}
                 )}

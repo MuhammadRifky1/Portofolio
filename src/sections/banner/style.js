@@ -8,6 +8,7 @@ export const ImgWrap = styled.div`
     background-size: cover;
     color: #fcfcfc;
     position: relative;
+    margin-bottom: 25px;
     
     p {
         position: absolute;
