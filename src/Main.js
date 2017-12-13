@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Banner from './sections/banner/Banner';
-import Content from './sections/contents/Content';
+import Banner from './sections/main/banner/Banner';
+import Content from './sections/main/contents/Content';
 import styled from 'styled-components';
 
 const Container = styled.div`

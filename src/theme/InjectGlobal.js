@@ -7,4 +7,8 @@ injectGlobal`
         padding: 0;
     }
 
+    body {
+        background-color: #fcfcfc;
+    }
+
 `;

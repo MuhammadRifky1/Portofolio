@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const ImgWrap = styled.div`
 
     height: 100vh;
-    background-image: url('${require('../../assets/runner.gif')}');
+    background-image: url('${require('assets/runner.gif')}');
     background-repeat: no-repeat;
     background-size: cover;
     color: #fcfcfc;

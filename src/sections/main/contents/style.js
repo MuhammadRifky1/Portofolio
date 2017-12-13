@@ -2,7 +2,12 @@ import styled, { css } from 'styled-components';
 
 export const ImgTxt = styled.p`
     position: relative;
+    font-size: 1.8em;
+    text-align: justify;
+    color: #414141;
+    margin-bottom: 25px;
     &:after {
+        
         content: '';
         position: absolute;
         top: 0;

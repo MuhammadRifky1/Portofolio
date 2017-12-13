@@ -3,13 +3,17 @@ import {
     BrowserRouter as Routes,
     Route
 } from 'react-router-dom';
-import App from './App';
+import Main from 'Main';
+import Project from 'Project';
 
 class Router extends Component {
     render(){
         return(
             <Routes>
-                <Route path="/" component={App} />
+                <div>
+                 <Route exact path="/" component={Main} />
+                 <Route path="/project" component={Project} />
+                </div>
             </Routes>
         )
     }
